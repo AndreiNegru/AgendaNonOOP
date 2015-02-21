@@ -24,6 +24,7 @@ public class AgendaAsCollection {
 
         do {
             m.printMenu();
+
             int option = m.readMenuOption();
             switch (option) {
                 case 1:
